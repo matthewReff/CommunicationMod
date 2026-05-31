@@ -108,4 +108,4 @@ Communication Mod is probably not receiving a ready signal. Make sure your proce
 
 - Can I get some example code to help get started with the Communication Mod protocol?
 
-Try looking at [spirecomm](https://github.com/ForgottenArbiter/spirecomm), the Python package I wrote to interface with Communication Mod.
+Try looking at [spirecomm](https://github.com/ForgottenArbiter/spirecomm), the Python package Forgotten Arbiter wrote to interface with Communication Mod.
