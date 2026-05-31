@@ -38,7 +38,7 @@ public class CommunicationMod implements PostInitializeSubscriber, PostUpdateSub
     private static Thread readThread;
     private static BlockingQueue<String> readQueue;
     private static final String MODNAME = "Communication Mod";
-    private static final String AUTHOR = "Forgotten Arbiter";
+    private static final String AUTHOR = "Matthew Reff";
     private static final String DESCRIPTION = "This mod communicates with an external program to play Slay the Spire.";
     public static boolean mustSendGameState = false;
     private static ArrayList<OnStateChangeSubscriber> onStateChangeSubscribers;
@@ -216,7 +216,7 @@ public class CommunicationMod implements PostInitializeSubscriber, PostUpdateSub
                     }
                 });
         settingsPanel.addUIElement(verbosityOption);
-        BaseMod.registerModBadge(ImageMaster.loadImage("Icon.png"),"Communication Mod", "Forgotten Arbiter", null, settingsPanel);
+        BaseMod.registerModBadge(ImageMaster.loadImage("Icon.png"),"Communication Mod", "Matthew Reff", null, settingsPanel);
     }
 
     private void startCommunicationThreads() {
